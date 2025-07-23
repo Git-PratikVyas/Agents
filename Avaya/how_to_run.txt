@@ -18,6 +18,7 @@ pip install -r .\requirements.txt
 1. go to folder ...\flight_booking_agent\server
 2. run command
 python server.py
+3. open new terminal
 3. go to folder ...\flight_booking_agent\client
 4. run command
 python main.py
@@ -29,6 +30,9 @@ python main.py
  
  -> Note for "Enter date (YYYY-MM-DD): " : I am using weather website to check weather. It takes next 10 days date. Make sure entered date is within that range.
 
+===Output====
+Server check flight / train availibility as per user input and book tickets.
+Output will be visibile on clinet prompt.
 
 ====== Other Details ===============
 all data ( calendar, flight, train, and booking) are in json file at ..\flight_booking_agent\server\data
