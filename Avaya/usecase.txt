@@ -9,7 +9,7 @@ Features:
 4. collect available flights/train as per user query and availability.
 5. take confirmation from user
 6. if user agree, take action (book ticket)
-7. save all these details in database.
+7. save booking details in database.
 8. if flight ticket is not available it automatically ask train booking agent to follow same process (step1 to 7)
 
 
