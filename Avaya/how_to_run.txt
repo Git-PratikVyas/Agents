@@ -1,6 +1,6 @@
 ==== Setup environment ===============
 
-1. Open in VSCode ( or anyother IDE)
+1. Open flight_booking_agent in VSCode ( or anyother IDE)
 2. open terminal
 3. got to path ../flight_booking_agent
 4. run below three commands one by one 
