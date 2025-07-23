@@ -1,8 +1,8 @@
-flight booking Agentic AI Application in python having following features: 
+Flight booking Agentic AI Application in python. 
 It should be workable Agentic AI app to demonstrate Agentic AI, MCP, A2A, tool calling, booking action and conversational flow by agents.
+It is POC , runnable on laptop, using tools without any subscription. ( mock data)
 
-It is POC , make sure it run on laptop with minimal external tool interaction which require paid  subscription.
-
+Features:
 1. It accept user query about source, destination, date, class(Economy, business etc ).
 2. It check weather, user calendar for sutable date.
 3. it interact with other tools, resources, website.
