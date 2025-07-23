@@ -11,3 +11,14 @@ Features:
 6. if user agree, take action (book ticket)
 7. save all these details in database.
 8. if flight ticket is not available it automatically ask train booking agent to follow same process (step1 to 7)
+
+
+=====
+Note:
+=====
+LLM is not being used for this application as input is very strucuted. 
+LLM is useful in case of free query processing  (like "book a flight or train ticket for Mumbai in next week. Check weather, calendar for suitable date" ).
+In this case, LLM can be used to extrat entiry (source,destination,date ), generte structured query, assign task to avilable tools to take action.
+
+
+
