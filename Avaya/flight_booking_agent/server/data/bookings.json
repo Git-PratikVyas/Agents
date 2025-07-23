@@ -1,0 +1,3 @@
+
+{"booking_id": "TR-67890", "train_details": {"train_number": "TR221", "source": "Delhi", "destination": "Mumbai", "date": "2025-08-01", "price": 1500}}
+{"booking_id": "TR-67890", "train_details": {"date": "2025-08-01", "destination": "Mumbai", "price": 1400, "source": "Delhi", "train_number": "TR102"}}

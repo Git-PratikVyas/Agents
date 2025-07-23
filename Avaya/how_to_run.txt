@@ -1,0 +1,35 @@
+==== Setup environment ===============
+
+1. Open in VSCode ( or anyother IDE)
+2. open terminal
+3. got to path ../flight_booking_agent
+4. run below three commands one by one 
+
+py -3.12 -m venv .venv
+
+.venv\Scripts\activate
+
+pip install -r .\requirements.txt 
+
+
+==== Now all packages are installed. Now follow below steps to run server and client ==========
+
+
+1. go to folder ...\flight_booking_agent\server
+2. run command
+python server.py
+3. go to folder ...\flight_booking_agent\client
+4. run command
+python main.py
+5. Client ask to input
+    "Enter source: "
+    "Enter destination: "
+    "Enter date (YYYY-MM-DD): "
+    "Enter class (Economy, Business, First): "
+ 
+ -> Note for "Enter date (YYYY-MM-DD): " : I am using weather website to check weather. It takes next 10 days date. Make sure entered date is within that range.
+
+
+====== Other Details ===============
+all data ( calendar, flight, train, and booking) are in json file at ..\flight_booking_agent\server\data
+( you can add/delete entries for testing)

@@ -1,0 +1,32 @@
+{
+  "trains": [
+    {
+      "train_number": "TR101",
+      "source": "Mumbai",
+      "destination": "Delhi",
+      "date": "2025-08-01",
+      "price": 1500
+    },
+    {
+      "train_number": "TR221",
+      "source": "Delhi",
+      "destination": "Mumbai",
+      "date": "2025-08-01",
+      "price": 1500
+    },
+    {
+      "train_number": "TR102",
+      "source": "Delhi",
+      "destination": "Mumbai",
+      "date": "2025-08-01",
+      "price": 1400
+    },
+    {
+      "train_number": "TR201",
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2025-08-05",
+      "price": 500
+    }
+  ]
+}
