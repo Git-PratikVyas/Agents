@@ -22,7 +22,7 @@ In this case, LLM can be used to extrat entiry (source,destination,date ), gener
 
 Only change require for LLM is 
 1. adding layer in server to call LLM which process query and generate structured query. 
-2. instead of calling tool directly, LLM will generate which tool to use based on query.
+2. instead of calling tool directly, LLM will decide which tool to use based on query.
 
 
 
