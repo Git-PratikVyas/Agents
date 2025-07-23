@@ -12,7 +12,7 @@ py -3.12 -m venv .venv
 pip install -r .\requirements.txt 
 
 
-==== Now all packages are installed. Now follow below steps to run server and client ==========
+==== Once all packages are installed. Now follow below steps to run server and client ==========
 
 
 1. go to folder ...\flight_booking_agent\server
