@@ -4,7 +4,7 @@ It is a POC , runnable on laptop, using tools without requiring any subscription
 
 Features:
 1. It accept user query about source, destination, date, class(Economy, business etc ).
-2. It check weather, user calendar for sutable date.
+2. It check weather, user calendar for suitable date.
 3. it interact with other tools, resources, website.
 4. collect available flights/train as per user query and availability.
 5. take confirmation from user
