@@ -10,4 +10,4 @@ Features:
 5. take confirmation from user
 6. if user agree, take action (book ticket)
 7. save all these details in database.
-8. if flight ticket is not available it ask train booking agent to follow same process (step1 to 6)
+8. if flight ticket is not available it automatically ask train booking agent to follow same process (step1 to 6)
