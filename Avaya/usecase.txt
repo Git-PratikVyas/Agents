@@ -16,7 +16,7 @@ Features:
 =====
 Note:
 =====
-LLM is not being used for this application as input is very strucuted. 
+LLM is not being used for this application as input is very structured. 
 LLM is useful in case of free query processing  (like "book a flight or train ticket for Mumbai in next week. Check weather, calendar for suitable date" ).
 In this case, LLM can be used to extrat entiry (source,destination,date ), generte structured query, assign task to avilable tools to take action.
 
