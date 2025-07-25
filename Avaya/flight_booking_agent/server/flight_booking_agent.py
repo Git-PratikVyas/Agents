@@ -17,7 +17,7 @@ class FlightBookingAgent:
 
         if not weather_ok or not calendar_free:
             print("Flight Booking Agent: Weather or calendar not suitable for travel.")
-            return
+            return {"status": "booking_failed", "message": "Weather or calendar not suitable for travel."}
 
         # 2. Find available flights
         available_flights = self.tool_executor.run("find_flights", source=user_query["source"], destination=user_query["destination"], date=user_query["date"])
