@@ -1,6 +1,6 @@
 ==== Setup environment ===============
 
-1. Open in VSCode ( or anyother IDE)
+1. Open flight_booking_agent in VSCode ( or anyother IDE)
 2. open terminal
 3. got to path ../flight_booking_agent
 4. run below three commands one by one 
@@ -12,12 +12,13 @@ py -3.12 -m venv .venv
 pip install -r .\requirements.txt 
 
 
-==== Now all packages are installed. Now follow below steps to run server and client ==========
+==== Once all packages are installed, follow below steps to run server and client ==========
 
 
 1. go to folder ...\flight_booking_agent\server
 2. run command
 python server.py
+3. open new terminal
 3. go to folder ...\flight_booking_agent\client
 4. run command
 python main.py
@@ -29,7 +30,11 @@ python main.py
  
  -> Note for "Enter date (YYYY-MM-DD): " : I am using weather website to check weather. It takes next 10 days date. Make sure entered date is within that range.
 
+===Output====
+Server will check flight / train availibility as per user input and book tickets.
+Output will be visibile on clinet prompt.
+booked data are stored at ..\flight_booking_agent\server\data\booking.json
 
 ====== Other Details ===============
-all data ( calendar, flight, train, and booking) are in json file at ..\flight_booking_agent\server\data
+all data ( calendar, flight, train, and booking) are stored in json file at ..\flight_booking_agent\server\data
 ( you can add/delete entries for testing)
